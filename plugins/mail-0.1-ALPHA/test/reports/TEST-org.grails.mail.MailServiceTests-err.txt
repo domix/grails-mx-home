@@ -1,0 +1,4 @@
+--Output from testSendSimpleMessage--
+--Output from testSendToMultipleRecipients--
+--Output from testSendToMultipleRecipientsAndCC--
+--Output from testSendHtmlMail--

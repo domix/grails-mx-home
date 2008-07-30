@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="graeme-rochers-computer.local" id="0" name="MailServiceTests" package="org.grails.mail" tests="4" time="0.105" timestamp="2008-05-14T08:29:49">
+      <properties />
+
+      <testcase classname="org.grails.mail.MailServiceTests" name="testSendSimpleMessage" time="0.02" />
+
+      <testcase classname="org.grails.mail.MailServiceTests" name="testSendToMultipleRecipients" time="0.0070" />
+
+      <testcase classname="org.grails.mail.MailServiceTests" name="testSendToMultipleRecipientsAndCC" time="0.011" />
+
+      <testcase classname="org.grails.mail.MailServiceTests" name="testSendHtmlMail" time="0.041" />
+
+      <system-out><![CDATA[--Output from testSendSimpleMessage--
+--Output from testSendToMultipleRecipients--
+--Output from testSendToMultipleRecipientsAndCC--
+--Output from testSendHtmlMail--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSendSimpleMessage--
+--Output from testSendToMultipleRecipients--
+--Output from testSendToMultipleRecipientsAndCC--
+--Output from testSendHtmlMail--
+]]></system-err>
+
+  </testsuite>
+</testsuites>

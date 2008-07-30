@@ -1,0 +1,19 @@
+Testsuite: org.grails.mail.MailServiceTests
+Tests run: 4, Failures: 0, Errors: 0, Time elapsed: 0.105 sec
+------------- Standard Output ---------------
+--Output from testSendSimpleMessage--
+--Output from testSendToMultipleRecipients--
+--Output from testSendToMultipleRecipientsAndCC--
+--Output from testSendHtmlMail--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from testSendSimpleMessage--
+--Output from testSendToMultipleRecipients--
+--Output from testSendToMultipleRecipientsAndCC--
+--Output from testSendHtmlMail--
+------------- ---------------- ---------------
+
+Testcase: testSendSimpleMessage took 0.02 sec
+Testcase: testSendToMultipleRecipients took 0.007 sec
+Testcase: testSendToMultipleRecipientsAndCC took 0.011 sec
+Testcase: testSendHtmlMail took 0.041 sec
