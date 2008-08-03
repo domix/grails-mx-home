@@ -7,8 +7,14 @@
 body { margin: 50px 0 0; background: #fff url(../images/bg.gif) repeat-x; font: .74em "Trebuchet MS", Arial, Sans-Serif; color: #444; }
 	h1 { font-size: 3em; font-weight: normal; float: left; }
 	h1 a { text-decoration: none; }
+	/*
+	h1 { font-size: 1.5em; border-bottom: 1px solid #eee; margin: 0 0 .8em; }
+	h1 a { text-decoration: none; }
+	*/
 	h2 { font-size: 2em; color: #FFF2B3; font-weight: normal; margin: 0 0 .0em; }
 	h3 { font-size: 1.5em; border-bottom: 1px solid #eee; margin: 0 0 .8em; }
+	h4 { font-size: 20px; color: #ffffff; font-weight: normal; margin: 0 125 ; }
+	h5 { font-size: 18px; color: #ffffff; font-weight: normal; margin: 0 150 ; }
 	p  { margin: 0 0 2em 0; line-height: 1.4em; }
 	em { border-bottom: 1px dotted #fff; cursor: pointer; }
 	a { color: #9D2900; }
@@ -40,3 +46,73 @@ body { margin: 50px 0 0; background: #fff url(../images/bg.gif) repeat-x; font: 
 #footer { clear: both; width: 900px; margin: 0 auto; padding: 15px; border-top: 1px solid #e0e0e0; background: #fff url(../images/small_logotype.jpg) no-repeat right 13px; }	
 	#footer .right { float: right; margin: 0 55px 0 0; }
 	#footer a { color: #808080; font-weight: bold; }
+	
+#title1{ clear: both; height: 25px; background: #fff url(../images/title1.jpg) repeat-x; }
+#title2{ clear: both; height: 25px; background: #fff url(../images/title2.jpg) repeat-x; }
+
+.colFull { float: left; width: 70%; }
+	.last { float: right; margin: 0; }
+	.info { border: 1px solid #e0e0e0; background: #f4f4f4; padding: 7px; }
+	
+.colMenu { float: left; width: 25%; margin: 0 0px 16px 0; }
+	.last { float: right; margin: 0; }
+	.info { border: 1px solid #e0e0e0; background: #f4f4f4; padding: 7px; }
+	
+
+/*- Menu --------------------------- */
+
+	#menuVertical {
+		width: 200px;
+		border-style: solid solid none solid;
+		border-color: #000;
+		border-size: 1px;
+		border-width: 1px;
+		padding-left: 0px;
+		margin-left: 0px;
+		}
+	
+	#menuVertical ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		border: none;
+	}
+
+	#menuVertical li a {
+		height: 32px;
+	  	voice-family: "\"}\""; 
+	  	voice-family: inherit;
+	  	height: 24px;
+		text-decoration: none;
+		}	
+
+	#menuVertical li a:link, #menuVertical li a:visited {
+		color: #CCC;
+		display: block;
+		background:  url(../images/menu4.gif);
+		padding: 8px 0 0 10px;
+		}
+
+	#menuVertical li a:hover {
+		color: #FFF;
+		background:  url(../images/menu4.gif) 0 -32px;
+		padding: 8px 0 0 10px;
+		}
+
+		.endsection {
+			margin: 15px 0px 0px 0px;
+			font-size: 0.8em;
+			text-transform: uppercase;
+			color: #666;	
+		}
+
+/* ----------- blog ---------- */
+		.endsection a:link,
+		.endsection a:visited {
+			border-bottom: 0;
+		}
+
+		.endsection a:hover,
+		.endsection a:active {
+			border-bottom: 1px solid;
+		}
