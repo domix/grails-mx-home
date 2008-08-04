@@ -30,7 +30,9 @@ environments {
 	production {
 		dataSource {
 			pooled = true
-			url = "jdbc:mysql://localhost/grails_mx"
+			url = "jdbc:mysql://localhost/grails"
+			username = "cms"
+			password = "g2one"
 			dbCreate = "update"
 		}
 	}
