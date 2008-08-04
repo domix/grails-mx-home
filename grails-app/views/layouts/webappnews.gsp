@@ -8,7 +8,7 @@
     </head>
     <body>
        	<div id="header">
-			<h1><a href="#">grails.org.mx</a></h1>
+			<h1><a href="/">grails.org.mx</a></h1>
 			<ul id="menu">
 				<li class="active"><a href="#">acerca de nosotros</a></li>
 				<li><a href="#">registro</a></li>
