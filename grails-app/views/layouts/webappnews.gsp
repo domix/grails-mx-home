@@ -43,11 +43,15 @@
 			<div class="colMenu">
 				<div id="menuVertical">
 						<ul>
-							<li><a href="#1" title="Link 1">Link 1</a></li>
-							<li><a href="#2" title="Link 2">Link 2</a></li>
-							<li><a href="#3" title="Link 3">Link 3</a></li>
-							<li><a href="#4" title="Link 4">Link 4</a></li>
-							<li><a href="#5" title="Link 5">Link 5</a></li>	
+							<li><a href="#1" title="Install">Instalación</a></li>
+							<li><a href="#2" title="Link 2">Inicio Rápido</a></li>
+							<li><a href="#3" title="Link 3">Configuración del IDE</a></li>
+							<li><a href="#4" title="Link 4">Tutoriales</a></li>
+							<li><a href="#5" title="Link 5">Screencast</a></li>
+							<li><a href="#6" title="Link 6">Documentación</a></li>	
+							<li><a href="#7" title="Link 7">Testimoniales</a></li>	
+							<li><a href="#8" title="Link 8">Plugins</a></li>
+							<li><a href="#9" title="Link 9">Lista de correo</a></li>
 						</ul>
 				</div>
 			</div>
