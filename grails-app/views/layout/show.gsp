@@ -4,23 +4,23 @@
     <meta name="layout" content="webapp" />
 </head>
 <body>
-   	<div class="wrap">
-		<div class="col">
-			<h3>Introducción a <span class="red">Grails</span></h3>
-			<p>Grails aims to bring the "coding by convention" paradigm to Groovy. It's an open-source web application framework
-			that leverages the Groovy language and complements Java Web development. You can use Grails as a standalone
-			development environment that hides all configuration details or integrate your Java business logic. Grails aims to
-			make development as simple as possible and hence should appeal to a wide range of developers not just those
-			from the Java community. Below you can find all you need to know (and more) about Grails.</p>
+   	<div id="teaser">
+		<div class="wrap">
+			<div id="image"></div>
+			<div class="box">
+				<h2>Revolucionando el concepto: <em title="Métodos efectivos de desarrollo">ágil</em></h2>
+				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec iaculis justo viverra nunc. Donec eu ipsum molestie eros condimentum malesuada. Sed quis velit vel augue sollicitudin aliquet.</p>
+				<h2>Presentación del portal: <em title="Métodos efectivos de desarrollo">bienvenido</em></h2>
+				<p>Quisque dignissim. Proin vehicula sem tempor velit. Pellentesque aliquam ante vitae pede. Nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec iaculis justo viverra nunc.</p>
+			</div>
 		</div>
-		<div class="col">
-			<h3>Observa los <span class="red">Screencast</span></h3>
-			<p>View "official" and user-created tutorials and screencasts designed to provide an overview of Grails or bring you up to speed on specific features. </p>
-		</div>
-		<div class="col last">
-			<h3>Escucha los <span class="red">Podcast</span></h3>
-			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Integer porta, ipsum sit amet ultricies congue, ante pede congue pede, id venenatis ante elit et nulla. Ut lectus nisi, convallis in, eleifend vitae, blandit non, orci.</p>
-			<p class="info">La información presentada en este sitio esta basada en el sitio original <a href="http://grails.org" target="_blank">grails.org</a></p>
+	</div>
+	
+	<div id="bar">
+		<div class="wrap">
+			<span class="step"><a>1</a> descarga</span>
+			<span class="step"><a>2</a> observa</span>
+			<span class="step"><a>3</a> desarrolla</span>
 		</div>
 	</div>
 </body>
