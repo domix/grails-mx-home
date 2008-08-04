@@ -4,42 +4,59 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
 	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-    <meta content="homepage" name="layout" />
+    <!--meta content="homepage" name="layout" /-->
+    <meta name="layout" content="webapp" />
 </head
 <body>
 
-	  <div id="feedLink" >
-	       <g:link controller="news" action="latest" params="[format:'rss']"><img border="0" src="${createLinkTo(dir:'images', file:'feed.gif')}" alt="RSS Feed"  /></g:link>
-	  </div>
-        <cache:text id="newsItems">
-            <g:set var="newsItems" value="${NewsItem.listOrderByDateCreated(sort:'dateCreated', max:2, order:'desc')}" />
-            <g:each var="newsItem" in="${newsItems}">
-                <div class="blogpost">
-                    <div><h2><g:link controller="news" action="showNews" id="${newsItem.id}">${newsItem.title}</g:link></h2></div>
+	<div id="teaser">
+		<div class="wrap">
+			<div id="image"></div>
+			<div class="box">
+				<cache:text id="newsItems">
+		            <g:set var="newsItems" value="${NewsItem.listOrderByDateCreated(sort:'dateCreated', max:2, order:'desc')}" />
+		            <g:each var="newsItem" in="${newsItems}">
+		                
+		                    <h2>${newsItem.title}</h2>
 
-                    <div class="pagesubheading">
-                    </div>
-                    <div class="wiki-content">
-                        <g:set var="newsBody"><wiki:text>${newsItem.body}</wiki:text></g:set>
-                        <g:if test="${newsItem.body.size() > 150}">
-                            <wiki:preview>${newsItem.body}</wiki:preview>  ...  <g:link controller="news" action="showNews" id="${newsItem.id}">click for more</g:link>
-                        </g:if>
-                        <g:else>
-                            <wiki:text>${newsItem.body}</wiki:text>
-                        </g:else>
-                    </div>
-                    <div class="endsection">
-                        <b>Posted at ${newsItem.dateCreated}</b> by
-                        <a href="#">${newsItem.author?.login}</a>            |
-                    </div>
-                </div>
-            </g:each>
-        </cache:text>
+		                        <g:set var="newsBody"><wiki:text>${newsItem.body}</wiki:text></g:set>
+		                        <g:if test="${newsItem.body.size() > 150}">
+		                            <wiki:preview>${newsItem.body}</wiki:preview>  ...  <g:link controller="news" action="showNews" id="${newsItem.id}">click for more</g:link>
+		                        </g:if>
+		                        <g:else>
+		                            <wiki:text>${newsItem.body}</wiki:text>
+		                        </g:else>
+		
+		                    <div class="endsection">
+		                        <b>Posted at ${newsItem.dateCreated}</b> by
+		                        <a href="#">${newsItem.author?.login}</a>            |
+		                    </div>
+		                	
+		            </g:each>
+		        </cache:text>
+				<br><br>
+				<!--div id="feedLink" >
+				       <g:link controller="news" action="latest" params="[format:'rss']"><img border="0" src="${createLinkTo(dir:'images', file:'feed.gif')}" alt="RSS Feed"  /></g:link>
+				  </div-->
+				<!--div>
+		            <g:link controller="news" action="createNews">Click here</g:link> to add news
+		        </div-->
+			</div>
+		</div>
+	</div>
+	
+	<div id="bar">
+		<div class="wrap">
+			<span class="step"><a>1</a> descarga</span>
+			<span class="step"><a>2</a> observa</span>
+			<span class="step"><a>3</a> desarrolla</span>
+		</div>
+	</div>
+	
 
+	  
 
-        <div>
-            <g:link controller="news" action="createNews">Click here</g:link> to add news
-        </div>
+        
 
 </body>
 </html>
