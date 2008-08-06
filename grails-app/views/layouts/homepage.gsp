@@ -19,7 +19,7 @@
 	<div id="container">
 
 	<!-- logo -->
-	<a href="http://grails.org"><img src="images/grails-logo.png" width="285" height="148" alt="Grails Logo" class="logo" border="0"/></a>
+	<g:link controller="content" id="Home"><img src="images/grails-logo.png" width="285" height="148" alt="Grails Logo" class="logo" border="0"/></g:link>
 	<!-- / logo -->
 
 	<!-- masthead -->
